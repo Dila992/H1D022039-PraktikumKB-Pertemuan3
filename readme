@@ -1,0 +1,47 @@
+Aplikasi Manajemen Tugas
+
+Aplikasi ini adalah program sederhana berbasis Python untuk mengelola daftar tugas. Pengguna dapat menambahkan, melihat, dan menghapus tugas dengan mudah.
+
+Fitur
+- Menambahkan tugas dengan nama dan tanggal jatuh tempo
+- Menampilkan daftar tugas dalam bentuk tabel
+- Menghapus tugas berdasarkan nomor
+
+Konsep Pemrograman yang Digunakan
+1. Struktur Kontrol:
+   - `if-elif-else` untuk menangani pilihan menu
+   - `while` loop untuk menjalankan menu secara terus-menerus
+2. Struktur Data:
+   - `list` digunakan untuk menyimpan daftar tugas
+   - `dictionary` digunakan untuk menyimpan detail tugas (nama dan tanggal jatuh tempo)
+3. Library yang Digunakan:
+   - `datetime`: Untuk menangani tanggal jatuh tempo
+   - `tabulate`: Untuk menampilkan daftar tugas dalam format tabel
+
+Cara Menggunakan
+1. Jalankan program dengan Python:  
+   python program.py
+2. Pilih menu yang tersedia:
+   - Ketik `1` untuk menambah tugas
+   - Ketik `2` untuk melihat daftar tugas
+   - Ketik `3` untuk menghapus tugas
+   - Ketik `4` untuk keluar dari program
+
+Instalasi Library Tambahan
+menambahkan library `tabulate` sudah terinstal sebelum menjalankan program:
+```sh
+pip install tabulate
+```
+
+Penggunaan contohnya :
+
+=== APLIKASI MANAJEMEN TUGAS ===
+1. Tambah Tugas
+2. Lihat Tugas
+3. Hapus Tugas
+4. Keluar
+Pilih menu: 1
+Masukkan nama tugas: Dila Belajar Prak KB
+Masukkan tanggal jatuh tempo (YYYY-MM-DD): 2025-04-01
+Tugas berhasil ditambahkan!
+
